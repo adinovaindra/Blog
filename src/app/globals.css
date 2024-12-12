@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #20948B; /* Light sky blue background */
+  color: #0a363d; /* Dark text for readability */
+}
+
+h1, h2, h3 {
+  color: #0a363d; /* Darker teal color for headings */
+}
+
+.container {
+  max-width: 1200px; /* Max width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 0 1rem; /* Padding for smaller screens */
+}
+
+input {
+  border: 1px solid #ccc; /* Light border for inputs */
+}
+
+input:focus {
+  border-color: #007bff; /* Blue border on focus */
+}
+
+.bg-white {
+  background-color: #ffffff; /* White background for cards */
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
+}
+
+.transition-transform {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.text-blue-600 {
+  color: #007bff; /* Blue color for links */
+}
+
+.text-gray-600 {
+  color: #718096; /* Gray color for text */
+}
+
+.button {
+  background-color: #004d40;
+  color: whitesmoke;
+}
+
+.button:hover {
+  color: #004d40;
+  background-color: whitesmoke;
+}
+
+.header {
+  background-color: #001a17;
+  color: whitesmoke;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  display: flex; /* Added to enable flexbox */
+}
+
+.header li:hover {
+  /* background-color: #0d3236; */
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  background-color: #001a17;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  display: flex; /* Added to enable flexbox */
+}
+
+.popular {
+  background-color: #20948B;
+}
+
+.calmgreen {
+  background-color: #9de4de
+}
