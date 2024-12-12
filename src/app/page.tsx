@@ -109,10 +109,10 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8">Dine & Watch !</h2>
           <h3 className="text-xl font-bold mb-8 text-teal-100">Enjoy Meals with Entertaining Videos !</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <Link href='https://www.youtube.com/watch?v=L24Wf0VlTE0&t=7s' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">How a 'small' engine lifts 100 people and cargo?</Link>
-          <Link href='https://www.youtube.com/watch?v=zU_aHdhkZBU' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">It’s sunny outside, yet you hit turbulence?</Link>
+<Link href='https://www.youtube.com/watch?v=L24Wf0VlTE0&t=7s' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">How a &apos;small&apos; engine lifts 100 people and cargo?</Link>
+<Link href='https://www.youtube.com/watch?v=zU_aHdhkZBU' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">It’s sunny outside, yet you hit turbulence?&rsquo;</Link>
           <Link href='https://www.youtube.com/watch?v=x3uD5MwhA5w' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">Can a pilot have tattoos and smoke?</Link>
-          <Link href='https://www.youtube.com/watch?v=Y3HnPQ-KmL0' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">Plane vs. birds : <br /> Who wins?</Link>
+<Link href='https://www.youtube.com/watch?v=Y3HnPQ-KmL0' className="bg-green-100 p-4 rounded-lg shadow-md text-center text-xl font-semibold hover:shadow-lg transition-shadow">Plane vs. birds : <br /> Who wins?&rsquo;</Link>
           </div>
         </div>
       </section>
